@@ -15,8 +15,7 @@ import rvi.varma.security.repository.UserRepository;
 public class AppConfig {
 	@Autowired
 	private UserRepository repo;
-	@Autowired
-	JWTFilter jwtFilter;
+	
 
 	@Bean
 	UserDetailsService userDetailsService() {
